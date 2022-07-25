@@ -170,8 +170,13 @@ svg {
     margin: 3rem 3rem;
     border: none;
     background-color:#EC5242;
-    color: #ffffff;
-    font-size: 1.5rem;
     padding: 1.5rem 2rem;
+    
+}
+.signup-btn a {
+    color: #ffffff;
     font-family: 'Lato';
+    font-size: 1.5rem;
+    text-decoration: none;
+
 }
