@@ -44,6 +44,7 @@ svg {
 }
 /* ==============================Start custom CSS =============================================*/
 .mobile-nav-list {
+    display: none;
    position: fixed;
     top: 0;
     left:0;
@@ -117,4 +118,50 @@ svg {
 }
 .banner-col-2 {
     margin-top: 2rem;
+}
+
+/*================ Star of Program =====================================================*/
+.main-program {
+    background-color: black;  
+    
+}
+.main-program h3 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3rem;
+  
+  
+}
+
+
+.section-title::after {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    margin: 1rem auto;
+    padding-top: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+    background-color: #EC5242;
+}
+
+.program-col {
+    display: flex;
+    gap: 10px;
+    background: rgba(221, 223, 224, 0.1);
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+.program-icon {
+    width: 40px;
+}
+.program-title{
+    color:#EC5242;
+    font-weight: 300;
+    font-family: 'Lato';
+}
+.program-details{
+    color:#ffffff;
+    font-size: 12px;
+    font-family: 'Lato';
 }
