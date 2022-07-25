@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+html, body {
+    height: 100%;
+}
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+/* ==============================Start custom CSS =============================================*/
+.mobile-nav-list {
+   position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #EC5242;
+    opacity: 0.9;
+}
+.mobile-nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    font-size: 1.7em;
+    font-size: 400;
+   
+}
+#hamburger-menu {
+    font-size: 2rem;
+    color: #272A31;
+    margin: 3rem 0 0 1rem;
+}
+.close-menu {
+    font-size: 1.7rem;
+    color: #ffffff;
+    float: right;
+    margin:1rem 2rem 0 0;
+}
+
+.banner {
+    margin:2rem 1rem 2rem 1rem;
+}
+.banner-col-1 h5 {
+    font-family: 'Lato';
+    color: #EC5242;
+    font-size:larger;
+}
+.banner-col-1 h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: clamp(2rem, 2rem + 10vw, 2rem);
+    font-weight: 800;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: url(images/text-mask.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.banner-text {
+    font-family: 'Lato';
+    color: #272A31;
+    border: solid 2px #d3d3d3;
+    padding: 0.4em;
+    margin: 2em 0;
+}
+.banner-date p {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 0.9rem;
+}
+.banner-date h4 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: clamp(2rem, 2rem + 5vw, 2rem);
+    color: #272A31;
+}
+.banner-location {
+    font-family: 'Lato';
+    color: #272A31;
+}
+.banner-col-2 {
+    margin-top: 2rem;
+}
