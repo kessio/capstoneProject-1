@@ -493,5 +493,27 @@ svg {
   .desktop-items.button {
     margin-left: 5rem;
   }
-  
+   /*===========================================  Banner Section  ========================================================================*/
+   .banner {
+    padding-top: 150px;
+  }
+ .banner-row {
+    display: flex;
+    justify-content: space-between;
+ }
+ .banner-col-1 {
+    width: 50%;
+    margin-left: 8%;
+ }
+ .banner-text {
+    width: 70%;
+ }
+ .banner-col-2 {
+    width: 30%;
+    margin-right: 4%;
+ }
+ .banner-col-1 h1{
+    font-size: 2.8rem;
+ }
+ 
 }
