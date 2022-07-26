@@ -565,5 +565,11 @@ svg {
  .more-tutors {
     display: none;
  }
- 
+ /*==================================================== Partners Section ==================================================================*/
+ .partner-list {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 2rem;
+ }
 }
