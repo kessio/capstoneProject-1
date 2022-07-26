@@ -114,7 +114,7 @@ svg {
 .banner-text {
     font-family: 'Lato';
     color: #272A31;
-    border: solid 2px #d3d3d3;
+    border: solid 5px #ffffff;
     padding: 0.4em;
     margin: 2em 0;
 }
@@ -283,7 +283,7 @@ svg {
  }
  .about-banner h1 {
     font-family: 'COCOGOOSE', sans-serif;
-    font-size: clamp(2rem, 2rem + 10vw, 2rem);
+    font-size: 2rem;
     font-weight: 800;
     color: transparent;
     text-transform: uppercase;
@@ -343,7 +343,6 @@ svg {
   font-family: 'lato';
   color: #272A31;
 }
-.campus-row{}
 .col-campus{
     margin: 2rem;   
 }
@@ -356,10 +355,6 @@ svg {
     flex-direction: column;
     align-items: center;
     padding-top: 25%;
-}
-.campus-text p{
-    
-
 }
 .col-campus.nairobi{
    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/nairobi.jpg);
@@ -384,4 +379,119 @@ svg {
    background-size: cover;
    background-repeat: none;
    min-height: 200px;
+}
+/*===========================================  Partners Section  ===============================================================*/
+.partners {
+    background-color: #272A31;
+    padding-bottom: 4rem;
+}
+.partners h3 {
+    font-family: 'lato';
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 3rem;
+}
+
+.partners h3::after {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0.8rem auto;
+    padding-top: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+    background-color: #EC5242;
+}
+.partner-list{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0 0.5rem;
+}
+.logo-item i{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #d3d3d3;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+
+@media screen and (max-width:767px){
+    .desktop-nav {
+        display: none;
+    }
+    .desktop-top-nav {
+        display: none;
+
+    }
+       
+}
+/*=============================================  Desktop View  ==============================================================*/
+@media screen and (min-width:768px){
+    #hamburger-menu {
+        display: none;
+    }
+    .desktop-top-nav {
+        background-color: #272A31;
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+    }
+    .top-nav-lists {
+        display: flex;
+        justify-content: end;
+    }
+    li.top-nav-items {
+        list-style: none;
+        padding-right: 1rem;
+    }
+    li.top-nav-items a {
+        color:#d3d3d3;
+    }
+    li.top-nav-items a:hover{
+        color: #EC5242;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    .desktop-nav {
+        display: flex;
+        position: fixed;
+        top:1.5rem;
+        justify-content: space-around;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 1.5rem 0;
+        box-shadow: 0 2px #d3d3d3;
+    }
+    .desktop-list {
+        display: flex;
+    }
+    .desktop-items {
+        list-style: none;
+        padding-right: 3rem;
+    }
+    li.desktop-items{
+      font-family: 'lato';
+      font-weight: 300;
+      text-align: center;
+      color: #272A31;
+      cursor: pointer;
+
+    }
+    li.desktop-items:hover{
+        color: #EC5242;
+
+    }
+  .desktop-items.button {
+    margin-left: 5rem;
+  }
+  
 }
