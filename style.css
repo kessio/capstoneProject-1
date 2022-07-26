@@ -45,7 +45,7 @@ svg {
 /* ==============================Start custom CSS =============================================*/
 .mobile-nav-list {
     display: none;
-   position: fixed;
+    position: fixed;
     top: 0;
     left:0;
     right: 0;
@@ -129,6 +129,7 @@ svg {
     color: #ffffff;
     text-align: center;
     padding-top: 3rem;
+    font-family: 'Lato';
   
   
 }
@@ -138,7 +139,7 @@ svg {
     content: "";
     width: 3rem;
     height: 0.1rem;
-    margin: 1rem auto;
+    margin: 0.8rem auto;
     padding-top: 0.1rem;
     display: block;
     margin-bottom: 1rem;
@@ -178,5 +179,78 @@ svg {
     font-family: 'Lato';
     font-size: 1.5rem;
     text-decoration: none;
+}
 
+.featured-tutors {
+    padding-bottom: 4rem;
+}
+.featured-tutors h3 {
+    color: #272A31;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+
+.tutor-img {
+    width: 170px;
+    height: 140px;
+}
+
+.col-tutor {
+    display: flex;
+    padding-left: 1em;
+}
+.speaker-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.7em 0.7em 0 1em;
+}
+.tutor-title {
+    color: #272A31;
+    font-family: 'lato';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.tutor-quote {
+    color: #EC5242;
+    font-family: 'lato';
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.tutor-quote::after {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0.2rem 0.5rem;
+    padding-top: 0.1rem;
+    display: block;
+    background-color: #d3d3d3;
+}
+.tutor-details {
+    color: #272A31;
+    font-family: 'lato';
+    font-size: 1rem;
+
+}
+.more-tutors {
+    margin: 2.6rem 1.5rem;
+    padding: 0.7em 1em;
+    border: solid 2px #d3d3d3;
+    width: 80%;
+    border-radius: 5px;
+}
+.more-tutors a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #272A31;
+    font-size: 1rem;
+    font-family: 'lato';
+}
+.more-tutors a i {
+    color: #EC5242;
+    padding-left: 1rem;
+    font-size: 1.5rem;
 }
