@@ -320,5 +320,68 @@ svg {
     font-family: 'Lato';
     color: #272A31;
     font-weight: 700;
-
  }
+
+ .campus-section-title::after {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0.8rem auto;
+    padding-top: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+    background-color: #EC5242;
+}
+.campus-section h3 {
+    font-family: 'lato';
+    font-weight: 600;
+    text-align: center;
+    color: #272A31;
+}
+.campus-details {
+  text-align: center;
+  font-family: 'lato';
+  color: #272A31;
+}
+.campus-row{}
+.col-campus{
+    margin: 2rem;   
+}
+.campus-text{
+    font-family: 'lato';
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+}
+.campus-text p{
+    
+
+}
+.col-campus.nairobi{
+   background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/nairobi.jpg);
+   background-size: cover;
+   background-repeat: none;
+   min-height: 200px;
+}
+.col-campus.kisumu{
+    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/kisumu.jpg);
+    background-size: cover;
+    background-repeat: none;
+    min-height: 200px;
+}
+.col-campus.mombasa{
+   background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/mombasa.jpg);
+   background-size: cover;
+   background-repeat: none;
+   min-height: 200px;
+}
+.col-campus.westlands{
+   background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/westlands.jpg);
+   background-size: cover;
+   background-repeat: none;
+   min-height: 200px;
+}
