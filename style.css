@@ -430,6 +430,9 @@ svg {
         display: none;
 
     }
+    .whole-program {
+        display: none;
+    }
        
 }
 /*=============================================  Desktop View  ==============================================================*/
@@ -519,15 +522,48 @@ svg {
  .program-row {
     display: flex;
     margin: 0 3rem;
-    padding-bottom: 10rem;
  }
  .program-col{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
  }
  .signup-btn {
     display: none;
  }
+ .whole-program{
+    padding: 5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .whole-program a{
+    color: #d3d3d3;
+    font-family: 'lato';
+    font-weight: 500;
+    font-size: 1.1rem;
+ }
+ .whole-program a:hover{
+    color: #EC5242;
+ }
+ /*===============================================   Tutors Section  =======================================================================*/
+ .row-tutors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .col-tutor {
+    width: 40%;
+    padding-top: 3rem;
+ }
+ .tutor-img {
+    width: 25%;
+    height: 25%;
+ }
+ .speaker-text {
+    padding-right: 3rem;
+ }
+ .more-tutors {
+    display: none;
+ }
+ 
 }
