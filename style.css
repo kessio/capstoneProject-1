@@ -515,5 +515,19 @@ svg {
  .banner-col-1 h1{
     font-size: 2.8rem;
  }
- 
+ /*========================================= Program section  =========================================================================*/
+ .program-row {
+    display: flex;
+    margin: 0 3rem;
+    padding-bottom: 10rem;
+ }
+ .program-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .signup-btn {
+    display: none;
+ }
 }
