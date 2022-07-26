@@ -43,6 +43,11 @@ svg {
   display: block;
 }
 /* ==============================Start custom CSS =============================================*/
+.header-section {
+    background: rgba(221, 223, 224, 0.3);
+    padding-bottom: 3rem;
+}
+
 .mobile-nav-list {
     display: none;
     position: fixed;
@@ -54,6 +59,12 @@ svg {
     background-color: #EC5242;
     opacity: 0.9;
 }
+
+.mobile-nav-list.active {
+    display: block;
+
+}
+
 .mobile-nav-item a {
     text-decoration: none;
     color: #ffffff;
@@ -65,11 +76,13 @@ svg {
     font-size: 400;
    
 }
+
 #hamburger-menu {
     font-size: 2rem;
     color: #272A31;
     margin: 3rem 0 0 1rem;
 }
+
 .close-menu {
     font-size: 1.7rem;
     color: #ffffff;
@@ -77,14 +90,16 @@ svg {
     margin:1rem 2rem 0 0;
 }
 
-.banner {
+.banner-row {
     margin:2rem 1rem 2rem 1rem;
 }
+
 .banner-col-1 h5 {
     font-family: 'Lato';
     color: #EC5242;
     font-size:larger;
 }
+
 .banner-col-1 h1 {
     font-family: 'COCOGOOSE', sans-serif;
     font-size: clamp(2rem, 2rem + 10vw, 2rem);
@@ -122,19 +137,14 @@ svg {
 
 /*================ Star of Program =====================================================*/
 .main-program {
-    background-color: black;  
-    
+    background-color: black;      
 }
 .main-program h3 {
     color: #ffffff;
     text-align: center;
     padding-top: 3rem;
     font-family: 'Lato';
-  
-  
 }
-
-
 .section-title::after {
     content: "";
     width: 3rem;
@@ -180,7 +190,7 @@ svg {
     font-size: 1.5rem;
     text-decoration: none;
 }
-
+/* ==================================Start of Tutor Section=================================================================================*/
 .featured-tutors {
     padding-bottom: 4rem;
 }
@@ -254,3 +264,61 @@ svg {
     padding-left: 1rem;
     font-size: 1.5rem;
 }
+
+ /*======================================Start of About Page===================================================================================*/
+
+ .about-header {
+    background: rgba(221, 223, 224, 0.8); 
+ }
+ .about-banner h5 {
+    font-family: 'Lato';
+    color: #EC5242;
+    font-size:larger;
+    text-align: center;
+    padding-bottom: 0.4rem;
+ }
+ .about-banner {
+    margin: 3rem 1.5rem;
+    padding-bottom: 3rem;
+ }
+ .about-banner h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: clamp(2rem, 2rem + 10vw, 2rem);
+    font-weight: 800;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: url(images/text-mask.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+ }
+ 
+ .about-banner-text {
+    background: #ffffff;
+    border: solid 2px #d3d3d3;
+    font-family: 'Lato';
+    color: #272A31;
+    padding: 0.4em;
+    margin: 1.5em 0;
+ }
+ 
+ .about-text-top{
+    font-family: 'Lato';
+    color: #272A31;
+ }
+ .about-text{
+    text-align: center;
+    font-family: 'Lato';
+    color: #272A31;
+    padding-top: 0.4rem;
+ }
+ .about-email{
+    text-align: center;
+    padding-top: 0.4rem;
+ }
+ .about-email a{
+    font-family: 'Lato';
+    color: #272A31;
+    font-weight: 700;
+
+ }
