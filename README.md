@@ -87,6 +87,14 @@ Give a ⭐️ if you like this project!
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Thanks to microverseinc who's directory was helpful in making this project
 
+Links to images used on testimonial section:
+ - https://unsplash.com/photos/Q-AyXtCV4aQ
+ - https://unsplash.com/photos/ZGa9d1a_4tA
+ - https://unsplash.com/photos/nJHvhXS4C0U
+ - https://unsplash.com/photos/AzVexpHvuKY
+ - https://unsplash.com/photos/_5_CBVCLBsY
+ - https://unsplash.com/photos/Zpzf7TLj_gA
+
 ## License
 
 MIT license @ author
