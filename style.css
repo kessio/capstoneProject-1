@@ -118,7 +118,7 @@ svg {
     padding: 0.4em;
     margin: 2em 0;
     font-weight: 700;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .banner-date p {
     font-family: 'COCOGOOSE', sans-serif;
@@ -427,7 +427,7 @@ svg {
     display: flex;
     justify-content: space-around;
     gap: 4rem;
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
 
 }
 .reserved {
