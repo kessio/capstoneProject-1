@@ -5,7 +5,7 @@
 # Table of Contents
 
 - About the project
-- Link
+- Links
 - Screenshot
 - Technologies
 - Setup
