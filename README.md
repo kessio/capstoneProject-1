@@ -38,12 +38,12 @@ This project is a coding bootcamp website with home and about pages. The website
 - https://kessio-microverse-projects.github.io/capstoneProject-1/
 
 # Link to Video demo
+https://www.loom.com/share/d2b26d471ede4cf3a72aed3836c2db84
 
 
 # Screenshot
 - Below is screenshot of some of the website sections on mobile and desktop view
  ![](images/project-screenshot/home-banner.PNG)
- ![](images/project-screenshot/programs-section.PNG)
  ![](images/project-screenshot/about-banner.PNG)
  ![](images/project-screenshot/programs-section.PNG)
  ![](images/project-screenshot/our-campuses.PNG)
