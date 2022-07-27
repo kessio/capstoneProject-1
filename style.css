@@ -359,10 +359,22 @@ button.signup-btn {
 /* ========================================== Start of Mission Section ==================================================== */
 .our-mission {
   margin: 3rem 2rem;
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-align: center;
   color: #272a31;
+}
+
+.mission-container {
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+hr {
+  margin-bottom: 3rem;
 }
 
 .our-mission-section-title::after {
@@ -387,6 +399,12 @@ button.signup-btn {
   padding: 2rem 0;
   font-weight: 500;
   font-size: 1.2rem;
+}
+
+.big-logo {
+  margin: 3rem 0;
+  border: 3px solid #d3d3d3;
+  padding: 2rem;
 }
 
 /* =========================================  Start of Program Section    ========================================== */
@@ -741,13 +759,18 @@ button.signup-btn {
   /* =======================================     Mission Section  ======================================================== */
   .mission-container {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
   .big-logo {
-    width: 45%;
+    width: 33%;
     max-height: 36%;
+    margin: 3rem 0;
+    border: 3px solid #d3d3d3;
+    padding: 3rem;
   }
 
   .text-col {
@@ -757,12 +780,17 @@ button.signup-btn {
   }
 
   .text-col h6 {
-    text-align: left;
+    text-align: center;
     font-weight: 600;
+    font-family: 'lato', sans-serif;
+    color: #272a31;
   }
 
-  .mission-text {
-    text-align: left;
+  p.mission-text {
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-weight: 400;
   }
 
   /* ==================================================  Campus Section  ========================================================= */
