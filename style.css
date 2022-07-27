@@ -458,7 +458,13 @@ svg {
     justify-content: space-around;
     gap: 4rem;
     padding: 2rem 0 1rem 0;
+}
+.footer-section.about{
+    background-color: #272A31;
 
+}
+.footer-section.about .reserved{
+    color: #d3d3d3;
 }
 .reserved {
     font-family: 'lato';
@@ -547,6 +553,14 @@ svg {
       }
       li.desktop-items.button a{
         color: #EC5242;
+       
+      }
+      li.desktop-items.button:hover{
+        background-color: #EC5242;
+        color: #ffffff;
+      }
+      li.desktop-items.button a:hover{
+        color: #ffffff;
       }
   
    /*===========================================  Banner Section  ========================================================================*/
