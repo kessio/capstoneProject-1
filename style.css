@@ -480,22 +480,30 @@ svg {
     .desktop-items {
         list-style: none;
         padding-right: 3rem;
+        padding: 0.6rem 1.6rem;
     }
-    li.desktop-items{
+    li.desktop-items a{
       font-family: 'lato';
       font-weight: 300;
       text-align: center;
       color: #272A31;
       cursor: pointer;
+      text-decoration: none;
+
 
     }
-    li.desktop-items:hover{
+    li.desktop-items a:hover{
         color: #EC5242;
 
     }
-  .desktop-items.button {
-    margin-left: 5rem;
-  }
+    li.desktop-items.button{
+        border: 4px solid #EC5242;
+        padding: 0.6rem 1.6rem;
+      }
+      li.desktop-items.button a{
+        color: #EC5242;
+      }
+  
    /*===========================================  Banner Section  ========================================================================*/
    .banner {
     padding-top: 150px;
@@ -505,18 +513,18 @@ svg {
     justify-content: space-between;
  }
  .banner-col-1 {
-    width: 50%;
-    margin-left: 8%;
+    width: 52%;
+    margin-left: 6%;
  }
  .banner-text {
-    width: 70%;
+    width: 60%;
  }
  .banner-col-2 {
-    width: 30%;
+    width: 35%;
     margin-right: 4%;
  }
  .banner-col-1 h1{
-    font-size: 2.8rem;
+    font-size: 2.9rem;
  }
  /*========================================= Program section  =========================================================================*/
  .program-row {
@@ -572,4 +580,33 @@ svg {
     gap: 5rem;
     padding-top: 2rem;
  }
+ 
+
+ /*====================================================  About Section   ==================================================================*/
+ .about-banner {
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-banner h1 {
+    font-size: 2.5rem;
+  }
+  .about-banner-text {
+    width: 40%;
+  }
+  .campus-row {
+    display: flex;
+    justify-content: center;
+    flex-basis: 20%;
+  }
+  .col-campus {
+    width: 100%;
+  }
+  .campus-text {
+    text-align: center;
+  }
+ 
 }
