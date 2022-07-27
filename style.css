@@ -325,7 +325,36 @@ svg {
     color: #272A31;
     font-weight: 700;
  }
-
+/*========================================== Start of Mission Section ====================================================*/
+.our-mission{
+    margin: 3rem 2rem;
+    font-family: 'lato';
+    font-weight: 400;
+    text-align: center;
+    color: #272A31;
+}
+.our-mission-section-title::after {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0.8rem auto;
+    padding-top: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+    background-color: #EC5242;
+}
+.our-mission h3 {
+    font-family: 'lato';
+    font-weight: 600;
+    text-align: center;
+    color: #272A31;
+}
+.text-col h6 {
+    padding: 2rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+/*=========================================  Start of Program Section    ==========================================*/
  .campus-section-title::after {
     content: "";
     width: 3rem;
@@ -346,6 +375,7 @@ svg {
   text-align: center;
   font-family: 'lato';
   color: #272A31;
+  margin: 0 2rem;
 }
 .col-campus{
     margin: 2rem;   
@@ -617,6 +647,29 @@ svg {
   .about-banner-text {
     width: 50%;
   }
+  /*=======================================     Mission Section  ========================================================*/
+  .mission-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.big-logo {
+    width: 45%;
+    max-height: 36%;
+}
+.text-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.text-col h6{
+    text-align: left;
+    font-weight: 600;
+}
+.mission-text {
+    text-align: left;
+}
+/*==================================================  Campus Section  =========================================================*/
   .campus-row {
     display: flex;
     justify-content: center;
