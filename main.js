@@ -37,7 +37,7 @@ const testimonials = [
 },
 {
   id: 6,
-  image: "images/tutor-5.fw.png",
+  image: "images/tutor-6.fw.png",
   name: 'Isaac Atuta',
   title: 'Developer at Turing',
   description: 'Yuawei school prepared me for the job market by being disciplined, organised, and beating deadlines.' 
@@ -45,8 +45,24 @@ const testimonials = [
 ]
 
 
-//const testimonialContainer = document.getElementById('tutorscontainer');
+const testimonialContainer = document.querySelector('.grid-container');
 
+function createCards () {
+  testimonials.forEach((item) => {
+    testimonialContainer.innerHTML += `
+    <div class="col-tutor">
+                    <img src="${item.image}" alt="tutor-image" class="tutor-img">
+                     <div class="speaker-text">
+                        <div class="tutor-title">${item.name}</div>
+                         <div class="tutor-quote">${item.title}</div>
+                         <p class="tutor-details">
+                         ${item.description}
+                         </p>
+                     </div>  
+                </div>`
+  }) 
+}
+createCards();
 
 
 

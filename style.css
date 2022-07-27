@@ -458,6 +458,7 @@ svg {
     justify-content: space-around;
     gap: 4rem;
     padding: 2rem 0 1rem 0;
+    margin-top: 3rem;
 }
 .footer-section.about{
     background-color: #272A31;
