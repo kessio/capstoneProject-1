@@ -219,7 +219,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0.7em 0.7em 0 1em;
+    padding: 0.7em 0.7em 0.8rem 1em;
 }
 .tutor-title {
     color: #272A31;
@@ -540,12 +540,9 @@ svg {
       color: #272A31;
       cursor: pointer;
       text-decoration: none;
-
-
     }
     li.desktop-items a:hover{
         color: #EC5242;
-
     }
     li.desktop-items.button{
         border: 4px solid #EC5242;
@@ -616,21 +613,22 @@ svg {
  .featured-tutors {
     background: rgba(221, 223, 224, 0.3); 
  }
- .row-tutors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+ .grid-container {
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 40% 40% ; /*Make the grid smaller than the container*/
+    gap: 20px;
+  }
  .col-tutor {
-    width: 40%;
+    width: 100%;
     padding-top: 3rem;
  }
  .tutor-img {
-    width: 25%;
-    height: 25%;
+    width: 50%;
  }
  .speaker-text {
     padding-right: 3rem;
+    text-align: left;
  }
  .more-tutors {
     display: none;
@@ -695,5 +693,16 @@ svg {
   .campus-text {
     text-align: center;
   }
+
+  
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+
  
 }
