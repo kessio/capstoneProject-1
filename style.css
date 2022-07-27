@@ -355,30 +355,29 @@ svg {
     flex-direction: column;
     align-items: center;
     padding-top: 25%;
+    text-align: center;
+}
+.start-date {
+    font-size: 1rem;
+    font-weight: 600;
 }
 .col-campus.nairobi{
    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/nairobi.jpg);
    background-size: cover;
    background-repeat: none;
-   min-height: 200px;
-}
-.col-campus.kisumu{
-    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/kisumu.jpg);
-    background-size: cover;
-    background-repeat: none;
-    min-height: 200px;
+   min-height: 250px;
 }
 .col-campus.mombasa{
    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/mombasa.jpg);
    background-size: cover;
    background-repeat: none;
-   min-height: 200px;
+   min-height: 250px;
 }
 .col-campus.westlands{
    background-image: linear-gradient(rgba(236,82,66,0.68),rgba(236,82,66,0.68)),url(images/westlands.jpg);
    background-size: cover;
    background-repeat: none;
-   min-height: 200px;
+   min-height: 250px;
 }
 /*===========================================  Partners Section  ===============================================================*/
 .partners {
@@ -600,7 +599,7 @@ svg {
   .campus-row {
     display: flex;
     justify-content: center;
-    flex-basis: 20%;
+    flex-basis: 25%;
   }
   .col-campus {
     width: 100%;
